@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.AB, function () {
-    if (input.soundLevel() == 51) {
+    if (input.soundLevel() == 120) {
         music.startMelody(music.builtInMelody(Melodies.Nyan), MelodyOptions.Once)
     }
 })
